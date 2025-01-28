@@ -32,8 +32,8 @@ def brute_force_pdf(pdf_path, wordlist_path):
         print(f"Ocorreu um erro: {e}")
 
 # Caminho do arquivo PDF e da wordlist
-pdf_path = "G:\Meu Drive\python\SuaContaClaro_Jan-2025.pdf"  # Substitua pelo caminho do arquivo PDF
-wordlist_path = "G:\Meu Drive\python\wordlist_5_digitos.txt"  # Substitua pelo caminho da wordlist
+pdf_path = "arquivo.pdf"  # Substitua pelo caminho do arquivo PDF
+wordlist_path = "wordlist.txt"  # Substitua pelo caminho da wordlist
 
 # Chamada da função
 brute_force_pdf(pdf_path, wordlist_path)
